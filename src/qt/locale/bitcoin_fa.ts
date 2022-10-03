@@ -66,13 +66,13 @@
         <translation>آدرس‌های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Learncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس‌های شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Learncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <translation>These are your Learncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</translation>
     </message>
     <message>
@@ -170,7 +170,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>تایید رمزگذاری کیف پول</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LEARNCOINS&lt;/b&gt;!</source>
         <translation>اخطار: اگر کیف‌پول خود را رمزگذاری کرده و رمز خود را فراموش کنید، شما &lt;b&gt;تمام بیت‌کوین‌های خود را از دست خواهید داد&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -255,7 +255,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>LearncoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>ثبت &amp;پیام</translation>
@@ -365,7 +365,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>پراکسی &lt;br&gt;فعال شده است: %1&lt;/br&gt;</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Learncoin address</source>
         <translation>ارسال کوین به آدرس بیت کوین</translation>
     </message>
     <message>
@@ -401,11 +401,11 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>رمزنگاری کلیدهای شخصی متعلق به کیف‌پول</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Learncoin addresses to prove you own them</source>
         <translation>پیام‌ها را با آدرس بیت‌کوین خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Learncoin addresses</source>
         <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس بیت‌کوین مطمئن شوید</translation>
     </message>
     <message>
@@ -441,7 +441,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>گزینه های خط فرمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Learncoin network</source>
         <translation><numerusform>%n ارتباط فعال به شبکه بیت‌کوین</numerusform><numerusform>%n ارتباط فعال به شبکه بیت‌کوین</numerusform></translation>
     </message>
     <message>
@@ -489,16 +489,16 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>&amp;Load PSBT from file...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>Load Partially Signed Bitcoin Transaction</translation>
+        <source>Load Partially Signed Learncoin Transaction</source>
+        <translation>Load Partially Signed Learncoin Transaction</translation>
     </message>
     <message>
         <source>Load PSBT from clipboard...</source>
         <translation>Load PSBT from clipboard...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>Load Partially Signed Bitcoin Transaction from clipboard</translation>
+        <source>Load Partially Signed Learncoin Transaction from clipboard</source>
+        <translation>Load Partially Signed Learncoin Transaction from clipboard</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -921,7 +921,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>ویرایش آدرس ارسالی</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Learncoin address.</source>
         <translation>آدرس وارد شده "%1" آدرس معتبر بیت کوین نیست.</translation>
     </message>
     <message>
@@ -1018,7 +1018,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>استفاده کردن از پوشه داده مخصوص:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Learncoin</source>
         <translation>بیت کوین</translation>
     </message>
     <message>
@@ -1034,8 +1034,8 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>تقریبا %1 گیگابایت داده در این شاخه ذخیره خواهد شد.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 will download and store a copy of the Bitcoin block chain.</translation>
+        <source>%1 will download and store a copy of the Learncoin block chain.</source>
+        <translation>%1 will download and store a copy of the Learncoin block chain.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1267,7 +1267,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>&amp;Spend unconfirmed change</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Learncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>باز کردن خودکار درگاه شبکهٔ بیت‌کوین روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
@@ -1283,8 +1283,8 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>اجازه دادن به ارتباطات ورودی</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Bitcoin network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Learncoin network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Learncoin network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1359,8 +1359,8 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>که امکانات کنترل کوین‌ها نشان داده شود یا نه.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</translation>
+        <source>Connect to the Learncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation>Connect to the Learncoin network through a separate SOCKS5 proxy for Tor onion services.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1434,7 +1434,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Learncoin network after a connection is established, but this process has not completed yet.</source>
         <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه bitcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
@@ -1664,8 +1664,8 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>آدرس پرداخت نامعتبر %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Learncoin address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Learncoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1706,7 +1706,7 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>میزان</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Learncoin address (e.g. %1)</source>
         <translation>آدرس بیت کوین را وارد کنید (به طور مثال %1)</translation>
     </message>
     <message>
@@ -2167,8 +2167,8 @@ Signing is only possible with addresses of the type 'legacy'.</translation>
         <translation>پیام:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Learncoin network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Learncoin network.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2524,8 +2524,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Cr&amp;eate Unsigned</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</translation>
+        <source>Creates a Partially Signed Learncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Creates a Partially Signed Learncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2572,8 +2572,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>تو میتوانی بعدا هزینه کارمزد را افزایش بدی(signals Replace-By-Fee, BIP-125)</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</translation>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Learncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Please, review your transaction proposal. This will produce a Partially Signed Learncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2648,7 +2648,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>تایید شدن تخمین زده شده تراکنش برابر است با: %n بلاک.</numerusform><numerusform>تایید شدن تخمین زده شده تراکنش برابر است با: %n بلاک.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Learncoin address</source>
         <translation>هشدار: آدرس بیت کوین نامعتبر</translation>
     </message>
     <message>
@@ -2687,7 +2687,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>انتخاب آدرس قبلا استفاده شده</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Learncoin address to send the payment to</source>
         <translation>آدرس بیت کوین برای ارسال پرداحت به آن</translation>
     </message>
     <message>
@@ -2739,8 +2739,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Enter a label for this address to add it to the list of used addresses</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Learncoin network.</source>
+        <translation>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Learncoin network.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2777,7 +2777,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Learncoin address to sign the message with</source>
         <translation>نشانی بیت‌کوین برای امضاء پیغام با آن</translation>
     </message>
     <message>
@@ -2809,7 +2809,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Learncoin address</source>
         <translation>پیام را امضا کنید تا ثابت کنید این آدرس بیت‌کوین متعلق به شماست</translation>
     </message>
     <message>
@@ -2833,7 +2833,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Learncoin address the message was signed with</source>
         <translation>نشانی بیت‌کوین که پیغام با آن امضاء شده</translation>
     </message>
     <message>
@@ -2845,7 +2845,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>The signature given when the message was signed</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Learncoin address</source>
         <translation>پیام را تایید کنید تا مطمئن شوید که توسط آدرس بیت‌کوین مشخص شده امضا شده است.</translation>
     </message>
     <message>

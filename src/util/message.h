@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2020 The Bitcoin Core developers
+// Copyright (c) 2009-2020 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_UTIL_MESSAGE_H
-#define BITCOIN_UTIL_MESSAGE_H
+#ifndef LEARNCOIN_UTIL_MESSAGE_H
+#define LEARNCOIN_UTIL_MESSAGE_H
 
 #include <key.h> // For CKey
 #include <uint256.h>
@@ -73,4 +73,4 @@ uint256 MessageHash(const std::string& message);
 
 std::string SigningResultString(const SigningResult res);
 
-#endif // BITCOIN_UTIL_MESSAGE_H
+#endif // LEARNCOIN_UTIL_MESSAGE_H

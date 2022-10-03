@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2019 The Bitcoin Core developers
+# Copyright (c) 2019 The Learncoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #
@@ -24,21 +24,21 @@ fi
 GENERATE_AT_HEIGHT="${1}"; shift;
 OUTPUT_PATH="${1}"; shift;
 # Most of the calls we make take a while to run, so pad with a lengthy timeout.
-BITCOIN_CLI_CALL="${*} -rpcclienttimeout=9999999"
+LEARNCOIN_CLI_CALL="${*} -rpcclienttimeout=9999999"
 
 # Block we'll invalidate/reconsider to rewind/fast-forward the chain.
-PIVOT_BLOCKHASH=$($BITCOIN_CLI_CALL getblockhash $(( GENERATE_AT_HEIGHT + 1 )) )
+PIVOT_BLOCKHASH=$($LEARNCOIN_CLI_CALL getblockhash $(( GENERATE_AT_HEIGHT + 1 )) )
 
 (>&2 echo "Rewinding chain back to height ${GENERATE_AT_HEIGHT} (by invalidating ${PIVOT_BLOCKHASH}); this may take a while")
-${BITCOIN_CLI_CALL} invalidateblock "${PIVOT_BLOCKHASH}"
+${LEARNCOIN_CLI_CALL} invalidateblock "${PIVOT_BLOCKHASH}"
 
 if [[ "${OUTPUT_PATH}" = "-" ]]; then
   (>&2 echo "Generating txoutset info...")
-  ${BITCOIN_CLI_CALL} gettxoutsetinfo | grep hash_serialized_2 | sed 's/^.*: "\(.\+\)\+",/\1/g'
+  ${LEARNCOIN_CLI_CALL} gettxoutsetinfo | grep hash_serialized_2 | sed 's/^.*: "\(.\+\)\+",/\1/g'
 else
   (>&2 echo "Generating UTXO snapshot...")
-  ${BITCOIN_CLI_CALL} dumptxoutset "${OUTPUT_PATH}"
+  ${LEARNCOIN_CLI_CALL} dumptxoutset "${OUTPUT_PATH}"
 fi
 
 (>&2 echo "Restoring chain to original height; this may take a while")
-${BITCOIN_CLI_CALL} reconsiderblock "${PIVOT_BLOCKHASH}"
+${LEARNCOIN_CLI_CALL} reconsiderblock "${PIVOT_BLOCKHASH}"

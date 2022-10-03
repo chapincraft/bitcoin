@@ -66,13 +66,13 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ce sont vos adresses Bitcoin pour envoyer des paiements. Vérifiez toujours le montant et l’adresse du destinataire avant d’envoyer des pièces.</translation>
+        <source>These are your Learncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ce sont vos adresses Learncoin pour envoyer des paiements. Vérifiez toujours le montant et l’adresse du destinataire avant d’envoyer des pièces.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Learncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Ce sont vos adresses Bitcoin pour recevoir des paiements. Utilisez le bouton « Créer une nouvelle adresse de réception » dans l’onglet Recevoir afin de créer de nouvelles adresses.
+        <translation>Ce sont vos adresses Learncoin pour recevoir des paiements. Utilisez le bouton « Créer une nouvelle adresse de réception » dans l’onglet Recevoir afin de créer de nouvelles adresses.
 Il n’est possible de signer qu’avec les adresses de type « legacy ».</translation>
     </message>
     <message>
@@ -170,8 +170,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Avertissement : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS BITCOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LEARNCOINS&lt;/b&gt;!</source>
+        <translation>Avertissement : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS LEARNCOINS&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,7 +254,7 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>LearncoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer un &amp;message…</translation>
@@ -364,8 +364,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Le serveur mandataire est &lt;b&gt;activé&lt;/b&gt; : %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Envoyer des pièces à une adresse Bitcoin</translation>
+        <source>Send coins to a Learncoin address</source>
+        <translation>Envoyer des pièces à une adresse Learncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -400,12 +400,12 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Chiffrer les clés privées qui appartiennent à votre porte-monnaie</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signer les messages avec vos adresses Bitcoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your Learncoin addresses to prove you own them</source>
+        <translation>Signer les messages avec vos adresses Learncoin pour prouver que vous les détenez</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Vérifier les messages pour s’assurer qu’ils ont été signés avec les adresses Bitcoin indiquées</translation>
+        <source>Verify messages to ensure they were signed with specified Learncoin addresses</source>
+        <translation>Vérifier les messages pour s’assurer qu’ils ont été signés avec les adresses Learncoin indiquées</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -440,8 +440,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n connexion active avec le réseau Bitcoin</numerusform><numerusform>%n connexions actives avec le réseau Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to Learncoin network</source>
+        <translation><numerusform>%n connexion active avec le réseau Learncoin</numerusform><numerusform>%n connexions actives avec le réseau Learncoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -488,16 +488,16 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>&amp;Charger une TBSP d’un fichier…</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>Charger une transaction Bitcoin signée partiellement</translation>
+        <source>Load Partially Signed Learncoin Transaction</source>
+        <translation>Charger une transaction Learncoin signée partiellement</translation>
     </message>
     <message>
         <source>Load PSBT from clipboard...</source>
         <translation>Charger une TBSP du presse-papiers…</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>Charger du presse-papiers une transaction Bitcoin signée partiellement</translation>
+        <source>Load Partially Signed Learncoin Transaction from clipboard</source>
+        <translation>Charger du presse-papiers une transaction Learncoin signée partiellement</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -544,8 +544,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Fermer tous les porte-monnaie</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Afficher le message d’aide de %1 pour obtenir la liste des options de ligne de commande Bitcoin possibles.</translation>
+        <source>Show the %1 help message to get a list with possible Learncoin command-line options</source>
+        <translation>Afficher le message d’aide de %1 pour obtenir la liste des options de ligne de commande Learncoin possibles.</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -924,8 +924,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Modifier l’adresse d’envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>L’adresse saisie « %1 » n’est pas une adresse Bitcoin valide.</translation>
+        <source>The entered address "%1" is not a valid Learncoin address.</source>
+        <translation>L’adresse saisie « %1 » n’est pas une adresse Learncoin valide.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1021,8 +1021,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Learncoin</source>
+        <translation>Learncoin</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
@@ -1037,8 +1037,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Approximativement %1 Go de données seront stockés dans ce répertoire.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs Bitcoin.</translation>
+        <source>%1 will download and store a copy of the Learncoin block chain.</source>
+        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs Learncoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1073,7 +1073,7 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Les transactions récentes ne sont peut-être pas encore visibles et par conséquent le solde de votre porte-monnaie est peut-être erroné. Ces renseignements seront justes quand votre porte-monnaie aura fini de se synchroniser avec le réseau Bitcoin, comme décrit ci-dessous.</translation>
+        <translation>Les transactions récentes ne sont peut-être pas encore visibles et par conséquent le solde de votre porte-monnaie est peut-être erroné. Ces renseignements seront justes quand votre porte-monnaie aura fini de se synchroniser avec le réseau Learncoin, comme décrit ci-dessous.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1269,8 +1269,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>&amp;Dépenser la monnaie non confirmée</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Bitcoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l’UPnP et si la fonction est activée.</translation>
+        <source>Automatically open the Learncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client Learncoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l’UPnP et si la fonction est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1285,8 +1285,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Permettre les connexions e&amp;ntrantes</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Se connecter au réseau Bitcoin par un mandataire SOCKS5.</translation>
+        <source>Connect to the Learncoin network through a SOCKS5 proxy.</source>
+        <translation>Se connecter au réseau Learncoin par un mandataire SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1361,8 +1361,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Afficher ou non les fonctions de contrôle des pièces.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation>Se connecter au réseau Bitcoin par un mandataire SOCKS5 séparé pour les services onion de Tor.</translation>
+        <source>Connect to the Learncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation>Se connecter au réseau Learncoin par un mandataire SOCKS5 séparé pour les services onion de Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1436,8 +1436,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les renseignements affichés peuvent être obsolètes. Votre porte-monnaie se synchronise automatiquement avec le réseau Bitcoin dès qu’une connexion est établie, mais ce processus n’est pas encore achevé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Learncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les renseignements affichés peuvent être obsolètes. Votre porte-monnaie se synchronise automatiquement avec le réseau Learncoin dès qu’une connexion est établie, mais ce processus n’est pas encore achevé.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1666,8 +1666,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>L’adresse de paiement est invalide %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>L’URI ne peut pas être analysée. Cela peut être causé par une adresse Bitcoin invalide ou par des paramètres d’URI mal formés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Learncoin address or malformed URI parameters.</source>
+        <translation>L’URI ne peut pas être analysée. Cela peut être causé par une adresse Learncoin invalide ou par des paramètres d’URI mal formés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1708,8 +1708,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Saisissez une adresse Bitcoin (p. ex. %1)</translation>
+        <source>Enter a Learncoin address (e.g. %1)</source>
+        <translation>Saisissez une adresse Learncoin (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2169,8 +2169,8 @@ Il n’est possible de signer qu’avec les adresses de type « legacy ».</tr
         <translation>M&amp;essage :</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l’ouverture de celle-ci. Note : Le message ne sera pas envoyé avec le paiement par le réseau Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Learncoin network.</source>
+        <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l’ouverture de celle-ci. Note : Le message ne sera pas envoyé avec le paiement par le réseau Learncoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2526,8 +2526,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Cr&amp;éer une transaction non signée</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Crée une transaction Bitcoin signée partiellement (TBSP) à utiliser, par exemple, avec un porte-monnaie %1 hors ligne ou avec un porte-monnaie matériel compatible TBSP.</translation>
+        <source>Creates a Partially Signed Learncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Crée une transaction Learncoin signée partiellement (TBSP) à utiliser, par exemple, avec un porte-monnaie %1 hors ligne ou avec un porte-monnaie matériel compatible TBSP.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2574,8 +2574,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Vous pouvez augmenter les frais ultérieurement (signale Remplacer-par-des-frais, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Veuillez réviser votre proposition de transaction. Une transaction Bitcoin partiellement signée (TBSP) sera produite, que vous pourrez enregistrer ou copier puis signer avec, par exemple, un porte-monnaie %1 hors ligne ou avec un porte-monnaie matériel compatible TBSP.</translation>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Learncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Veuillez réviser votre proposition de transaction. Une transaction Learncoin partiellement signée (TBSP) sera produite, que vous pourrez enregistrer ou copier puis signer avec, par exemple, un porte-monnaie %1 hors ligne ou avec un porte-monnaie matériel compatible TBSP.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2650,8 +2650,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation><numerusform>Il est estimé que la confirmation commencera dans %n bloc.</numerusform><numerusform>Il est estimé que la confirmation commencera dans %n blocs.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Avertissement : L’adresse Bitcoin est invalide</translation>
+        <source>Warning: Invalid Learncoin address</source>
+        <translation>Avertissement : L’adresse Learncoin est invalide</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2689,8 +2689,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Choisir une adresse déjà utilisée</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>L’adresse Bitcoin à laquelle envoyer le paiement</translation>
+        <source>The Learncoin address to send the payment to</source>
+        <translation>L’adresse Learncoin à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2741,8 +2741,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Saisissez une étiquette pour cette adresse afin de l’ajouter à la liste d’adresses utilisées</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Un message qui était joint à l’URI bitcoin: et qui sera stocké avec la transaction pour référence. Note : Ce message ne sera pas envoyé par le réseau Bitcoin.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Learncoin network.</source>
+        <translation>Un message qui était joint à l’URI bitcoin: et qui sera stocké avec la transaction pour référence. Note : Ce message ne sera pas envoyé par le réseau Learncoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2779,8 +2779,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des bitcoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d’hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l’usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d’accord.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>L’adresse Bitcoin avec laquelle signer le message</translation>
+        <source>The Learncoin address to sign the message with</source>
+        <translation>L’adresse Learncoin avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2811,8 +2811,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Copier la signature actuelle dans le presse-papiers</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signer le message afin de prouver que vous détenez cette adresse Bitcoin</translation>
+        <source>Sign the message to prove you own this Learncoin address</source>
+        <translation>Signer le message afin de prouver que vous détenez cette adresse Learncoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2835,8 +2835,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Saisissez ci-dessous l’adresse du destinataire, le message (assurez-vous de copier fidèlement les retours à la ligne, les espaces, les tabulations, etc.) et la signature pour vérifier le message. Faites attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé même, pour éviter d’être trompé par une attaque de l’intercepteur. Notez que cela ne fait que prouver que le signataire reçoit avec l’adresse et ne peut pas prouver la provenance d’une transaction.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>L’adresse Bitcoin avec laquelle le message a été signé</translation>
+        <source>The Learncoin address the message was signed with</source>
+        <translation>L’adresse Learncoin avec laquelle le message a été signé</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2847,8 +2847,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>La signature donnée quand le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Vérifier le message pour s’assurer qu’il a été signé avec l’adresse Bitcoin indiquée</translation>
+        <source>Verify the message to ensure it was signed with the specified Learncoin address</source>
+        <translation>Vérifier le message pour s’assurer qu’il a été signé avec l’adresse Learncoin indiquée</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

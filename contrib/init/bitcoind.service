@@ -10,7 +10,7 @@
 # config file.
 
 [Unit]
-Description=Bitcoin daemon
+Description=Learncoin daemon
 After=network.target
 
 [Service]

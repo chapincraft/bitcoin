@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-# Copyright (c) 2017-2020 The Bitcoin Core developers
+# Copyright (c) 2017-2020 The Learncoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test bitcoin-cli"""
 
 from decimal import Decimal
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import LearncoinTestFramework
 from test_framework.util import (
     assert_equal,
     assert_raises_process_error,
@@ -25,7 +25,7 @@ TOO_MANY_ARGS = 'error: too many arguments (maximum 2 for nblocks and maxtries)'
 WALLET_NOT_LOADED = 'Requested wallet does not exist or is not loaded'
 WALLET_NOT_SPECIFIED = 'Wallet file not specified'
 
-class TestBitcoinCli(BitcoinTestFramework):
+class TestLearncoinCli(LearncoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1
@@ -246,4 +246,4 @@ class TestBitcoinCli(BitcoinTestFramework):
 
 
 if __name__ == '__main__':
-    TestBitcoinCli().main()
+    TestLearncoinCli().main()

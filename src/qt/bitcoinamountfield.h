@@ -1,9 +1,9 @@
-// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2011-2018 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_BITCOINAMOUNTFIELD_H
-#define BITCOIN_QT_BITCOINAMOUNTFIELD_H
+#ifndef LEARNCOIN_QT_LEARNCOINAMOUNTFIELD_H
+#define LEARNCOIN_QT_LEARNCOINAMOUNTFIELD_H
 
 #include <amount.h>
 
@@ -17,7 +17,7 @@ QT_END_NAMESPACE
 
 /** Widget for entering bitcoin amounts.
   */
-class BitcoinAmountField: public QWidget
+class LearncoinAmountField: public QWidget
 {
     Q_OBJECT
 
@@ -26,7 +26,7 @@ class BitcoinAmountField: public QWidget
     Q_PROPERTY(qint64 value READ value WRITE setValue NOTIFY valueChanged USER true)
 
 public:
-    explicit BitcoinAmountField(QWidget *parent = nullptr);
+    explicit LearncoinAmountField(QWidget *parent = nullptr);
 
     CAmount value(bool *value=nullptr) const;
     void setValue(const CAmount& value);
@@ -81,4 +81,4 @@ private Q_SLOTS:
 
 };
 
-#endif // BITCOIN_QT_BITCOINAMOUNTFIELD_H
+#endif // LEARNCOIN_QT_LEARNCOINAMOUNTFIELD_H

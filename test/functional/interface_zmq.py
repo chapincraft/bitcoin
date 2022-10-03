@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2015-2019 The Bitcoin Core developers
+# Copyright (c) 2015-2019 The Learncoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test the ZMQ notification interface."""
@@ -7,7 +7,7 @@ import struct
 
 from test_framework.address import ADDRESS_BCRT1_UNSPENDABLE, ADDRESS_BCRT1_P2WSH_OP_TRUE
 from test_framework.blocktools import create_block, create_coinbase, add_witness_commitment
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import LearncoinTestFramework
 from test_framework.messages import CTransaction, hash256, FromHex
 from test_framework.util import (
     assert_equal,
@@ -59,7 +59,7 @@ class ZMQSubscriber:
         return (hash, label, mempool_sequence)
 
 
-class ZMQTest (BitcoinTestFramework):
+class ZMQTest (LearncoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
 

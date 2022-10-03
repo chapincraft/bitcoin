@@ -66,11 +66,11 @@
         <translation>وەرگرتنی ناونیشانەکان</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Learncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>ئەمانە ناونیشانی بیتکۆبیتەکانی تۆنە بۆ ناردنی پارەدانەکان. هەمیشە بڕی و ناونیشانی وەرگرەکان بپشکنە پێش ناردنی دراوەکان.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Learncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>ئەمانە ناونیشانی بیتکۆبیتەکانی تۆنە بۆ وەرگرتنی پارەدانەکان. دوگمەی 'دروستکردنیناونیشانی وەرگرتنی نوێ' لە تابی وەرگرتندا بۆ دروستکردنی ناونیشانی نوێ بەکاربێنە.
 واژووکردن تەنها دەکرێت لەگەڵ ناونیشانەکانی جۆری 'میرات'.</translation>
@@ -118,7 +118,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>LearncoinGUI</name>
     <message>
         <source>Click to disable network activity.</source>
         <translation>کرتە بکە بۆ ناچالاککردنی چالاکی تۆڕ.</translation>
@@ -281,7 +281,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>ئەگەر تۆ دیاریت کردووە بۆ سنووردارکردنی کۆگە زنجیرەی بلۆک (کێڵکردن)، هێشتا داتای مێژووی دەبێت دابەزێنرێت و پرۆسەی بۆ بکرێت، بەڵام دواتر دەسڕدرێتەوە بۆ ئەوەی بەکارهێنانی دیسکەکەت کەم بێت.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Learncoin block chain.</source>
         <translation>%1 کۆپیەکی زنجیرەی بلۆکی بیتکۆپ دائەبەزێنێت و خەزنی دەکات.</translation>
     </message>
     <message>
@@ -586,7 +586,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>یان</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Learncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <translation>تکایە، پێداچوونەوە بکە بە پێشنیارەکانی مامەڵەکەت. ئەمە مامەڵەیەکی بیتکۆپەکی کەبەشیونکراو (PSBT) بەرهەمدەهێنێت کە دەتوانیت پاشەکەوتی بکەیت یان کۆپی بکەیت و پاشان واژووی بکەیت لەگەڵ بۆ ئەوەی بە دەرهێڵی %1 جزدانێک، یان جزدانێکی رەقەواڵەی گونجاو بە PSBT.</translation>
     </message>
     <message>

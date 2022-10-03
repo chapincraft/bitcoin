@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2020 The Bitcoin Core developers
+// Copyright (c) 2009-2020 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_SCRIPT_STANDARD_H
-#define BITCOIN_SCRIPT_STANDARD_H
+#ifndef LEARNCOIN_SCRIPT_STANDARD_H
+#define LEARNCOIN_SCRIPT_STANDARD_H
 
 #include <script/interpreter.h>
 #include <uint256.h>
@@ -253,7 +253,7 @@ bool ExtractDestination(const CScript& scriptPubKey, CTxDestination& addressRet)
 bool ExtractDestinations(const CScript& scriptPubKey, TxoutType& typeRet, std::vector<CTxDestination>& addressRet, int& nRequiredRet);
 
 /**
- * Generate a Bitcoin scriptPubKey for the given CTxDestination. Returns a P2PKH
+ * Generate a Learncoin scriptPubKey for the given CTxDestination. Returns a P2PKH
  * script for a CKeyID destination, a P2SH script for a CScriptID, and an empty
  * script for CNoDestination.
  */
@@ -265,4 +265,4 @@ CScript GetScriptForRawPubKey(const CPubKey& pubkey);
 /** Generate a multisig script. */
 CScript GetScriptForMultisig(int nRequired, const std::vector<CPubKey>& keys);
 
-#endif // BITCOIN_SCRIPT_STANDARD_H
+#endif // LEARNCOIN_SCRIPT_STANDARD_H

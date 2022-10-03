@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2016-2019 The Bitcoin Core developers
+# Copyright (c) 2016-2019 The Learncoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test compact blocks (BIP 152).
@@ -13,7 +13,7 @@ from test_framework.blocktools import create_block, NORMAL_GBT_REQUEST_PARAMS, a
 from test_framework.messages import BlockTransactions, BlockTransactionsRequest, calculate_shortid, CBlock, CBlockHeader, CInv, COutPoint, CTransaction, CTxIn, CTxInWitness, CTxOut, FromHex, HeaderAndShortIDs, msg_no_witness_block, msg_no_witness_blocktxn, msg_cmpctblock, msg_getblocktxn, msg_getdata, msg_getheaders, msg_headers, msg_inv, msg_sendcmpct, msg_sendheaders, msg_tx, msg_block, msg_blocktxn, MSG_BLOCK, MSG_CMPCT_BLOCK, MSG_WITNESS_FLAG, NODE_NETWORK, P2PHeaderAndShortIDs, PrefilledTransaction, ser_uint256, ToHex
 from test_framework.p2p import p2p_lock, P2PInterface
 from test_framework.script import CScript, OP_TRUE, OP_DROP
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import LearncoinTestFramework
 from test_framework.util import assert_equal, softfork_active
 
 # TestP2PConn: A peer we use to send messages to bitcoind, and store responses.
@@ -91,7 +91,7 @@ class TestP2PConn(P2PInterface):
         self.send_message(message)
         self.wait_for_disconnect(timeout)
 
-class CompactBlocksTest(BitcoinTestFramework):
+class CompactBlocksTest(LearncoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1

@@ -7,8 +7,8 @@ define(_CLIENT_VERSION_RC, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2020)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Bitcoin Core]])
-AC_INIT([Bitcoin Core],m4_join([.], _CLIENT_VERSION_MAJOR, _CLIENT_VERSION_MINOR, _CLIENT_VERSION_REVISION, m4_if(_CLIENT_VERSION_BUILD, [0], [], _CLIENT_VERSION_BUILD))m4_if(_CLIENT_VERSION_RC, [0], [], [rc]_CLIENT_VERSION_RC),[https://github.com/bitcoin/bitcoin/issues],[bitcoin],[https://bitcoincore.org/])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Learncoin Core]])
+AC_INIT([Learncoin Core],m4_join([.], _CLIENT_VERSION_MAJOR, _CLIENT_VERSION_MINOR, _CLIENT_VERSION_REVISION, m4_if(_CLIENT_VERSION_BUILD, [0], [], _CLIENT_VERSION_BUILD))m4_if(_CLIENT_VERSION_RC, [0], [], [rc]_CLIENT_VERSION_RC),[https://github.com/bitcoin/bitcoin/issues],[bitcoin],[https://bitcoincore.org/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -20,11 +20,11 @@ if test "x$PKG_CONFIG" = x; then
   AC_MSG_ERROR([pkg-config not found])
 fi
 
-BITCOIN_DAEMON_NAME=bitcoind
-BITCOIN_GUI_NAME=bitcoin-qt
-BITCOIN_CLI_NAME=bitcoin-cli
-BITCOIN_TX_NAME=bitcoin-tx
-BITCOIN_WALLET_TOOL_NAME=bitcoin-wallet
+LEARNCOIN_DAEMON_NAME=bitcoind
+LEARNCOIN_GUI_NAME=bitcoin-qt
+LEARNCOIN_CLI_NAME=bitcoin-cli
+LEARNCOIN_TX_NAME=bitcoin-tx
+LEARNCOIN_WALLET_TOOL_NAME=bitcoin-wallet
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
@@ -34,9 +34,9 @@ fi
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef BITCOIN_CONFIG_H])
-AH_TOP([#define BITCOIN_CONFIG_H])
-AH_BOTTOM([#endif //BITCOIN_CONFIG_H])
+AH_TOP([#ifndef LEARNCOIN_CONFIG_H])
+AH_TOP([#define LEARNCOIN_CONFIG_H])
+AH_BOTTOM([#endif //LEARNCOIN_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -198,7 +198,7 @@ AC_ARG_ENABLE([ccache],
 
 dnl Suppress warnings from external headers (e.g. Boost, Qt).
 dnl May be useful if warnings from external headers clutter the build output
-dnl too much, so that it becomes difficult to spot Bitcoin Core warnings
+dnl too much, so that it becomes difficult to spot Learncoin Core warnings
 dnl or if they cause a build failure with --enable-werror.
 AC_ARG_ENABLE([suppress-external-warnings],
   [AS_HELP_STRING([--enable-suppress-external-warnings],
@@ -648,7 +648,7 @@ case $host in
 
          if test "x$use_bdb" != xno && $BREW list --versions berkeley-db4 >/dev/null && test "x$BDB_CFLAGS" = "x" && test "x$BDB_LIBS" = "x"; then
            bdb_prefix=$($BREW --prefix berkeley-db4 2>/dev/null)
-           dnl This must precede the call to BITCOIN_FIND_BDB48 below.
+           dnl This must precede the call to LEARNCOIN_FIND_BDB48 below.
            BDB_CFLAGS="-I$bdb_prefix/include"
            BDB_LIBS="-L$bdb_prefix/lib -ldb_cxx-4.8"
          fi
@@ -1211,10 +1211,10 @@ if test "x$enable_fuzz" = "xyes"; then
       /* unterminated comment to remove the main function ...
     ]],[[]])])
 else
-  BITCOIN_QT_INIT
+  LEARNCOIN_QT_INIT
 
   dnl sets $bitcoin_enable_qt, $bitcoin_enable_qt_test, $bitcoin_enable_qt_dbus
-  BITCOIN_QT_CONFIGURE([5.5.1])
+  LEARNCOIN_QT_CONFIGURE([5.5.1])
 
   dnl Keep a copy of the original $QT_INCLUDES and use it when invoking qt's moc
   QT_INCLUDES_UNSUPPRESSED=$QT_INCLUDES
@@ -1227,7 +1227,7 @@ fi
 
 if test x$enable_wallet != xno; then
     dnl Check for libdb_cxx only if wallet enabled
-    BITCOIN_FIND_BDB48
+    LEARNCOIN_FIND_BDB48
     if test x$suppress_external_warnings != xno ; then
         BDB_CPPFLAGS=SUPPRESS_WARNINGS($BDB_CPPFLAGS)
     fi
@@ -1365,7 +1365,7 @@ fi
 dnl QR Code encoding library check
 
 if test "x$use_qr" != xno; then
-  BITCOIN_QT_CHECK([PKG_CHECK_MODULES([QR], [libqrencode], [have_qrencode=yes], [have_qrencode=no])])
+  LEARNCOIN_QT_CHECK([PKG_CHECK_MODULES([QR], [libqrencode], [have_qrencode=yes], [have_qrencode=no])])
 fi
 
 dnl ZMQ check
@@ -1445,8 +1445,8 @@ else
 fi
 
 AM_CONDITIONAL([BUILD_MULTIPROCESS],[test "x$build_multiprocess" = xyes])
-AM_CONDITIONAL([BUILD_BITCOIN_NODE], [test "x$build_multiprocess" = xyes])
-AM_CONDITIONAL([BUILD_BITCOIN_GUI], [test "x$build_multiprocess" = xyes])
+AM_CONDITIONAL([BUILD_LEARNCOIN_NODE], [test "x$build_multiprocess" = xyes])
+AM_CONDITIONAL([BUILD_LEARNCOIN_GUI], [test "x$build_multiprocess" = xyes])
 
 dnl codegen tools check
 
@@ -1460,23 +1460,23 @@ if test x$build_multiprocess != xno; then
 fi
 
 AC_MSG_CHECKING([whether to build bitcoind])
-AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
+AM_CONDITIONAL([BUILD_LEARNCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
 AC_MSG_CHECKING([whether to build bitcoin-cli])
-AM_CONDITIONAL([BUILD_BITCOIN_CLI], [test x$build_bitcoin_cli = xyes])
+AM_CONDITIONAL([BUILD_LEARNCOIN_CLI], [test x$build_bitcoin_cli = xyes])
 AC_MSG_RESULT($build_bitcoin_cli)
 
 AC_MSG_CHECKING([whether to build bitcoin-tx])
-AM_CONDITIONAL([BUILD_BITCOIN_TX], [test x$build_bitcoin_tx = xyes])
+AM_CONDITIONAL([BUILD_LEARNCOIN_TX], [test x$build_bitcoin_tx = xyes])
 AC_MSG_RESULT($build_bitcoin_tx)
 
 AC_MSG_CHECKING([whether to build bitcoin-wallet])
-AM_CONDITIONAL([BUILD_BITCOIN_WALLET], [test x$build_bitcoin_wallet = xyes])
+AM_CONDITIONAL([BUILD_LEARNCOIN_WALLET], [test x$build_bitcoin_wallet = xyes])
 AC_MSG_RESULT($build_bitcoin_wallet)
 
 AC_MSG_CHECKING([whether to build libraries])
-AM_CONDITIONAL([BUILD_BITCOIN_LIBS], [test x$build_bitcoin_libs = xyes])
+AM_CONDITIONAL([BUILD_LEARNCOIN_LIBS], [test x$build_bitcoin_libs = xyes])
 if test x$build_bitcoin_libs = xyes; then
   AC_DEFINE(HAVE_CONSENSUS_LIB, 1, [Define this symbol if the consensus lib has been built])
   AC_CONFIG_FILES([libbitcoinconsensus.pc:libbitcoinconsensus.pc.in])
@@ -1642,11 +1642,11 @@ AC_SUBST(COPYRIGHT_YEAR, _COPYRIGHT_YEAR)
 AC_SUBST(COPYRIGHT_HOLDERS, "_COPYRIGHT_HOLDERS")
 AC_SUBST(COPYRIGHT_HOLDERS_SUBSTITUTION, "_COPYRIGHT_HOLDERS_SUBSTITUTION")
 AC_SUBST(COPYRIGHT_HOLDERS_FINAL, "_COPYRIGHT_HOLDERS_FINAL")
-AC_SUBST(BITCOIN_DAEMON_NAME)
-AC_SUBST(BITCOIN_GUI_NAME)
-AC_SUBST(BITCOIN_CLI_NAME)
-AC_SUBST(BITCOIN_TX_NAME)
-AC_SUBST(BITCOIN_WALLET_TOOL_NAME)
+AC_SUBST(LEARNCOIN_DAEMON_NAME)
+AC_SUBST(LEARNCOIN_GUI_NAME)
+AC_SUBST(LEARNCOIN_CLI_NAME)
+AC_SUBST(LEARNCOIN_TX_NAME)
+AC_SUBST(LEARNCOIN_WALLET_TOOL_NAME)
 
 AC_SUBST(RELDFLAGS)
 AC_SUBST(DEBUG_CPPFLAGS)

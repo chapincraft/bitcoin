@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2020 The Bitcoin Core developers
+// Copyright (c) 2009-2020 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -991,7 +991,7 @@ static RPCHelpMan testmempoolaccept()
 static RPCHelpMan decodepsbt()
 {
     return RPCHelpMan{"decodepsbt",
-                "\nReturn a JSON object representing the serialized, base64-encoded partially signed Bitcoin transaction.\n",
+                "\nReturn a JSON object representing the serialized, base64-encoded partially signed Learncoin transaction.\n",
                 {
                     {"psbt", RPCArg::Type::STR, RPCArg::Optional::NO, "The PSBT base64 string"},
                 },
@@ -1022,7 +1022,7 @@ static RPCHelpMan decodepsbt()
                                         {RPCResult::Type::STR, "asm", "The asm"},
                                         {RPCResult::Type::STR_HEX, "hex", "The hex"},
                                         {RPCResult::Type::STR, "type", "The type, eg 'pubkeyhash'"},
-                                        {RPCResult::Type::STR, "address"," Bitcoin address if there is one"},
+                                        {RPCResult::Type::STR, "address"," Learncoin address if there is one"},
                                     }},
                                 }},
                                 {RPCResult::Type::OBJ_DYN, "partial_signatures", /* optional */ true, "",
@@ -1302,7 +1302,7 @@ static RPCHelpMan decodepsbt()
 static RPCHelpMan combinepsbt()
 {
     return RPCHelpMan{"combinepsbt",
-                "\nCombine multiple partially signed Bitcoin transactions into one transaction.\n"
+                "\nCombine multiple partially signed Learncoin transactions into one transaction.\n"
                 "Implements the Combiner role.\n",
                 {
                     {"txs", RPCArg::Type::ARR, RPCArg::Optional::NO, "The base64 strings of partially signed transactions",

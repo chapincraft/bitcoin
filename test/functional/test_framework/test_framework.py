@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2014-2019 The Bitcoin Core developers
+# Copyright (c) 2014-2019 The Learncoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Base class for RPC testing."""
@@ -53,27 +53,27 @@ class SkipTest(Exception):
         self.message = message
 
 
-class BitcoinTestMetaClass(type):
-    """Metaclass for BitcoinTestFramework.
+class LearncoinTestMetaClass(type):
+    """Metaclass for LearncoinTestFramework.
 
-    Ensures that any attempt to register a subclass of `BitcoinTestFramework`
+    Ensures that any attempt to register a subclass of `LearncoinTestFramework`
     adheres to a standard whereby the subclass overrides `set_test_params` and
     `run_test` but DOES NOT override either `__init__` or `main`. If any of
     those standards are violated, a ``TypeError`` is raised."""
 
     def __new__(cls, clsname, bases, dct):
-        if not clsname == 'BitcoinTestFramework':
+        if not clsname == 'LearncoinTestFramework':
             if not ('run_test' in dct and 'set_test_params' in dct):
-                raise TypeError("BitcoinTestFramework subclasses must override "
+                raise TypeError("LearncoinTestFramework subclasses must override "
                                 "'run_test' and 'set_test_params'")
             if '__init__' in dct or 'main' in dct:
-                raise TypeError("BitcoinTestFramework subclasses may not override "
+                raise TypeError("LearncoinTestFramework subclasses may not override "
                                 "'__init__' or 'main'")
 
         return super().__new__(cls, clsname, bases, dct)
 
 
-class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
+class LearncoinTestFramework(metaclass=LearncoinTestMetaClass):
     """Base class for a bitcoin test script.
 
     Individual bitcoin test scripts should subclass this class and override the set_test_params() and run_test() methods.
@@ -217,8 +217,8 @@ class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
             "src",
             "bitcoin-cli" + config["environment"]["EXEEXT"],
         )
-        self.options.bitcoind = os.getenv("BITCOIND", default=fname_bitcoind)
-        self.options.bitcoincli = os.getenv("BITCOINCLI", default=fname_bitcoincli)
+        self.options.bitcoind = os.getenv("LEARNCOIND", default=fname_bitcoind)
+        self.options.bitcoincli = os.getenv("LEARNCOINCLI", default=fname_bitcoincli)
 
         os.environ['PATH'] = os.pathsep.join([
             os.path.join(config['environment']['BUILDDIR'], 'src'),
@@ -320,7 +320,7 @@ class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
             h.flush()
             h.close()
             self.log.removeHandler(h)
-        rpc_logger = logging.getLogger("BitcoinRPC")
+        rpc_logger = logging.getLogger("LearncoinRPC")
         for h in list(rpc_logger.handlers):
             h.flush()
             rpc_logger.removeHandler(h)
@@ -673,7 +673,7 @@ class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
         self.log.addHandler(ch)
 
         if self.options.trace_rpc:
-            rpc_logger = logging.getLogger("BitcoinRPC")
+            rpc_logger = logging.getLogger("LearncoinRPC")
             rpc_logger.setLevel(logging.DEBUG)
             rpc_handler = logging.StreamHandler(sys.stdout)
             rpc_handler.setLevel(logging.DEBUG)

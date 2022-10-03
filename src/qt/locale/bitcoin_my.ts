@@ -48,7 +48,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>LearncoinGUI</name>
     <message>
         <source>Error</source>
         <translation>အမှား</translation>

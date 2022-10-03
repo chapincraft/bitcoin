@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2017-2020 The Bitcoin Core developers
+# Copyright (c) 2017-2020 The Learncoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Class for bitcoind node under test"""
@@ -36,7 +36,7 @@ from .util import (
     EncodeDecimal,
 )
 
-BITCOIND_PROC_WAIT_TIMEOUT = 60
+LEARNCOIND_PROC_WAIT_TIMEOUT = 60
 
 
 class FailedToStartError(Exception):
@@ -358,7 +358,7 @@ class TestNode():
         self.log.debug("Node stopped")
         return True
 
-    def wait_until_stopped(self, timeout=BITCOIND_PROC_WAIT_TIMEOUT):
+    def wait_until_stopped(self, timeout=LEARNCOIND_PROC_WAIT_TIMEOUT):
         wait_until_helper(self.is_node_stopped, timeout=timeout, timeout_factor=self.timeout_factor)
 
     @contextlib.contextmanager

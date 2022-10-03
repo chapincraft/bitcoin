@@ -1,9 +1,9 @@
-// Copyright (c) 2018-2020 The Bitcoin Core developers
+// Copyright (c) 2018-2020 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_BITCOIN_CONFIG_H
-#define BITCOIN_BITCOIN_CONFIG_H
+#ifndef LEARNCOIN_LEARNCOIN_CONFIG_H
+#define LEARNCOIN_LEARNCOIN_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -27,10 +27,10 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The Learncoin Core developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Bitcoin Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "Learncoin Core"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2019
@@ -250,10 +250,10 @@
 #define PACKAGE_BUGREPORT "https://github.com/bitcoin/bitcoin/issues"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Bitcoin Core"
+#define PACKAGE_NAME "Learncoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Bitcoin Core 0.21.0"
+#define PACKAGE_STRING "Learncoin Core 0.21.0"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "bitcoin"
@@ -335,4 +335,4 @@
 
 #endif // !WINAPI_FAMILY || WINAPI_FAMILY_DESKTOP_APP
 
-#endif //BITCOIN_BITCOIN_CONFIG_H
+#endif //LEARNCOIN_LEARNCOIN_CONFIG_H

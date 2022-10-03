@@ -66,8 +66,8 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Bitcoin-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar bitcoin.</translation>
+        <source>These are your Learncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Learncoin-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar bitcoin.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -165,8 +165,8 @@ Försök igen.</translation>
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>VARNING: Om du krypterar din plånbok och glömmer din lösenfras, &lt;b&gt;FÖRLORAR DU ALLA DINA BITCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LEARNCOINS&lt;/b&gt;!</source>
+        <translation>VARNING: Om du krypterar din plånbok och glömmer din lösenfras, &lt;b&gt;FÖRLORAR DU ALLA DINA LEARNCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -249,7 +249,7 @@ Försök igen.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>LearncoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signera &amp;meddelande...</translation>
@@ -359,8 +359,8 @@ Försök igen.</translation>
         <translation>Proxy är &lt;b&gt; aktiverad &lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Skicka bitcoin till en Bitcoin-adress</translation>
+        <source>Send coins to a Learncoin address</source>
+        <translation>Skicka bitcoin till en Learncoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -395,12 +395,12 @@ Försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Bitcoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Learncoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina Learncoin-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Bitcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Learncoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Learncoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -435,8 +435,8 @@ Försök igen.</translation>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to Learncoin network</source>
+        <translation><numerusform>%n aktiva anslutningar till Learncoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Learncoin-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -531,8 +531,8 @@ Försök igen.</translation>
         <translation>Stäng alla plånböcker</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Bitcoin kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible Learncoin command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Learncoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -895,8 +895,8 @@ Försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
+        <source>The entered address "%1" is not a valid Learncoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Learncoin-adress.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -992,8 +992,8 @@ Försök igen.</translation>
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Learncoin</source>
+        <translation>Learncoin</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
@@ -1008,8 +1008,8 @@ Försök igen.</translation>
         <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av Bitcoins blockkedja.</translation>
+        <source>%1 will download and store a copy of the Learncoin block chain.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av Learncoins blockkedja.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1044,7 +1044,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med Bitcoin-nätverket enligt informationen nedan.</translation>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med Learncoin-nätverket enligt informationen nedan.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1236,8 +1236,8 @@ Försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the Learncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Learncoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1252,8 +1252,8 @@ Försök igen.</translation>
         <translation>Tillåt inkommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Bitcoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the Learncoin network through a SOCKS5 proxy.</source>
+        <translation>Anslut till Learncoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1395,8 +1395,8 @@ Försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Learncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Learncoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1509,8 +1509,8 @@ Försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI-parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Learncoin address or malformed URI parameters.</source>
+        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Learncoin-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1551,8 +1551,8 @@ Försök igen.</translation>
         <translation>Belopp</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ange en Bitcoin-adress (t.ex. %1)</translation>
+        <source>Enter a Learncoin address (e.g. %1)</source>
+        <translation>Ange en Learncoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1992,8 +1992,8 @@ Försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Bitcoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Learncoin network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Learncoin-nätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2429,8 +2429,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Varning: Ogiltig Bitcoin-adress</translation>
+        <source>Warning: Invalid Learncoin address</source>
+        <translation>Varning: Ogiltig Learncoin-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2468,8 +2468,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Välj tidigare använda adresser</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoin-adress att sända betalning till</translation>
+        <source>The Learncoin address to send the payment to</source>
+        <translation>Learncoin-adress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2520,8 +2520,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Ett meddelande som bifogades bitcoin: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Bitcoin-nätverket.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Learncoin network.</source>
+        <translation>Ett meddelande som bifogades bitcoin: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Learncoin-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2558,8 +2558,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot bitcoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin-adress att signera meddelandet med</translation>
+        <source>The Learncoin address to sign the message with</source>
+        <translation>Learncoin-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2590,8 +2590,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Bitcoin-adress</translation>
+        <source>Sign the message to prove you own this Learncoin address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Learncoin-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2614,16 +2614,16 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin-adress som meddelandet signerades med</translation>
+        <source>The Learncoin address the message was signed with</source>
+        <translation>Learncoin-adress som meddelandet signerades med</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
         <translation>Signerat meddelande som ska verifieras</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Bitcoin-adress</translation>
+        <source>Verify the message to ensure it was signed with the specified Learncoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Learncoin-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3182,7 +3182,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Bitcoins</translation>
+        <translation>Skicka Learncoins</translation>
     </message>
     <message>
         <source>Fee bump error</source>

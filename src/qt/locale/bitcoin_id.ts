@@ -66,8 +66,8 @@
         <translation>Alamat-alamat penerima</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Berikut ialah alamat-alamat Bitcoin Anda yang digunakan untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <source>These are your Learncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Berikut ialah alamat-alamat Learncoin Anda yang digunakan untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>Konfirmasi pengenkripsian dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Peringatan: Jika Anda mengenkripsi dompet Anda dan lupa kata sandi Anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LEARNCOINS&lt;/b&gt;!</source>
+        <translation>Peringatan: Jika Anda mengenkripsi dompet Anda dan lupa kata sandi Anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA LEARNCOIN ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -248,7 +248,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>LearncoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Pesan &amp;penanda...</translation>
@@ -358,8 +358,8 @@
         <translation>Proxy di &lt;b&gt;aktifkan&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Kirim koin ke alamat Bitcoin</translation>
+        <source>Send coins to a Learncoin address</source>
+        <translation>Kirim koin ke alamat Learncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -394,12 +394,12 @@
         <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat Bitcoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
+        <source>Sign messages with your Learncoin addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat Learncoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Bitcoin tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified Learncoin addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Learncoin tertentu</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -434,8 +434,8 @@
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n koneksi aktif ke jaringan Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to Learncoin network</source>
+        <translation><numerusform>%n koneksi aktif ke jaringan Learncoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -514,8 +514,8 @@
         <translation>Tutup wallet</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Bitcoin yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible Learncoin command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Learncoin yang memungkinkan</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -866,8 +866,8 @@
         <translation>Ubah alamat pengirim</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukanlah alamat Bitcoin yang valid.</translation>
+        <source>The entered address "%1" is not a valid Learncoin address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukanlah alamat Learncoin yang valid.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -963,8 +963,8 @@
         <translation>Gunakan direktori pilihan Anda:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Learncoin</source>
+        <translation>Learncoin</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
@@ -979,8 +979,8 @@
         <translation>%1 GB data akan disimpan di direktori ini.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 akan mengunduh dan menyimpan salinan Bitcoin block chain.</translation>
+        <source>%1 will download and store a copy of the Learncoin block chain.</source>
+        <translation>%1 akan mengunduh dan menyimpan salinan Learncoin block chain.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1015,7 +1015,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Bitcoin, seperti rincian berikut.</translation>
+        <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Learncoin, seperti rincian berikut.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1211,8 +1211,8 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Bitcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the Learncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Learncoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1227,8 +1227,8 @@
         <translation>Terima koneksi-koneksi masuk</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan Bitcoin melalui SOCKS5 proxy.</translation>
+        <source>Connect to the Learncoin network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan Learncoin melalui SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1370,8 +1370,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Bitcoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Learncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Learncoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1484,8 +1484,8 @@
         <translation>Alamat pembayaran tidak valid %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI tidak bisa dimengerti! Hal ini bisa disebabkan karena alamat Bitcoin yang tidak sah atau parameter URI yang tidak tepat.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Learncoin address or malformed URI parameters.</source>
+        <translation>URI tidak bisa dimengerti! Hal ini bisa disebabkan karena alamat Learncoin yang tidak sah atau parameter URI yang tidak tepat.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1526,8 +1526,8 @@
         <translation>Nilai</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Masukkan alamat Bitcoin (contoh %1)</translation>
+        <source>Enter a Learncoin address (e.g. %1)</source>
+        <translation>Masukkan alamat Learncoin (contoh %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1973,8 +1973,8 @@
         <translation>&amp;Pesan:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Pesan opsional untuk dilampirkan ke permintaan pembayaran, yang akan ditampilkan ketika permintaan dibuka. Catatan: Pesan tidak akan dikirim dengan pembayaran melalui jaringan Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Learncoin network.</source>
+        <translation>Pesan opsional untuk dilampirkan ke permintaan pembayaran, yang akan ditampilkan ketika permintaan dibuka. Catatan: Pesan tidak akan dikirim dengan pembayaran melalui jaringan Learncoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2314,7 +2314,7 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation>bu&amp;at Tidak ditandai</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Creates a Partially Signed Learncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <translation>Membuat sebagian tertanda transaksi bitcoin (PSBT) untuk digunakan dengan contoh dompet offline %1, atau dompet yang kompatibel dengan PSBT</translation>
     </message>
     <message>
@@ -2414,8 +2414,8 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation><numerusform>Diperkirakan akan memulai konfirmasi dalam %n blok.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Peringatan: Alamat Bitcoin tidak valid</translation>
+        <source>Warning: Invalid Learncoin address</source>
+        <translation>Peringatan: Alamat Learncoin tidak valid</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2453,8 +2453,8 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation>Pilih alamat yang telah digunakan sebelumnya</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Alamat Bitcoin untuk mengirim pembayaran</translation>
+        <source>The Learncoin address to send the payment to</source>
+        <translation>Alamat Learncoin untuk mengirim pembayaran</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2505,8 +2505,8 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation>Masukkan label untuk alamat ini untuk dimasukan dalam daftar alamat yang pernah digunakan</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Pesan yang dilampirkan ke bitcoin: URI yang akan disimpan dengan transaksi untuk referensi Anda. Catatan: Pesan ini tidak akan dikirim melalui jaringan Bitcoin.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Learncoin network.</source>
+        <translation>Pesan yang dilampirkan ke bitcoin: URI yang akan disimpan dengan transaksi untuk referensi Anda. Catatan: Pesan ini tidak akan dikirim melalui jaringan Learncoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2539,8 +2539,8 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation>Anda dapat menandatangani pesan / perjanjian dengan alamat Anda untuk membuktikan bahwa Anda dapat menerima bitcoin yang dikirimkan kepada mereka. Berhati-hatilah untuk tidak menandatangani apa pun yang samar-samar atau acak, karena serangan phishing mungkin mencoba menipu Anda untuk menandatangani identitas Anda kepada mereka. Hanya tandatangani pernyataan terperinci yang Anda setujui.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Alamat Bitcoin untuk menandatangani pesan</translation>
+        <source>The Learncoin address to sign the message with</source>
+        <translation>Alamat Learncoin untuk menandatangani pesan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2571,8 +2571,8 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Bitcoin ini</translation>
+        <source>Sign the message to prove you own this Learncoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Learncoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2595,8 +2595,8 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation>Masukkan alamat penerima, pesan (pastikan Anda menyalin persis jeda baris, spasi, tab, dll) dan tanda tangan di bawah untuk memverifikasi pesan. Berhati-hatilah untuk tidak memberi informasi lebih ke tanda tangan daripada apa yang ada dalam pesan yang ditandatangani itu sendiri, untuk menghindari dikelabui oleh serangan man-in-the-middle. Perhatikan bahwa ini hanya membuktikan pihak penandatangan menerima dengan alamat, tapi tidak dapat membuktikan pengiriman dari transaksi apa pun!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Alamat Bitcoin yang menandatangani pesan</translation>
+        <source>The Learncoin address the message was signed with</source>
+        <translation>Alamat Learncoin yang menandatangani pesan</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2607,8 +2607,8 @@ Catatan: Karena biaya dihitung berdasarkan per byte, biaya "100 satoshi per kB" 
         <translation> Tanda tangan diberikan saat pesan telah ditandatangani</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifikasi pesan untuk memastikannya ditandatangani dengan alamat Bitcoin tersebut</translation>
+        <source>Verify the message to ensure it was signed with the specified Learncoin address</source>
+        <translation>Verifikasi pesan untuk memastikannya ditandatangani dengan alamat Learncoin tersebut</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

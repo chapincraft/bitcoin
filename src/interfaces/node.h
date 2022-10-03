@@ -1,9 +1,9 @@
-// Copyright (c) 2018-2019 The Bitcoin Core developers
+// Copyright (c) 2018-2019 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_INTERFACES_NODE_H
-#define BITCOIN_INTERFACES_NODE_H
+#ifndef LEARNCOIN_INTERFACES_NODE_H
+#define LEARNCOIN_INTERFACES_NODE_H
 
 #include <amount.h>     // For CAmount
 #include <net.h>        // For CConnman::NumConnections
@@ -239,4 +239,4 @@ struct BlockTip {
 
 } // namespace interfaces
 
-#endif // BITCOIN_INTERFACES_NODE_H
+#endif // LEARNCOIN_INTERFACES_NODE_H

@@ -78,15 +78,15 @@ files out-of-the-box. This is because the command line options specified in the
 init files take precedence over the configurations in
 `/etc/bitcoin/bitcoin.conf`. However, some init systems have their own
 configuration mechanisms that would allow for overriding the command line
-options specified in the init files (e.g. setting `BITCOIND_DATADIR` for
+options specified in the init files (e.g. setting `LEARNCOIND_DATADIR` for
 OpenRC).
 
 ### macOS
 
 Binary:              `/usr/local/bin/bitcoind`
-Configuration file:  `~/Library/Application Support/Bitcoin/bitcoin.conf`
-Data directory:      `~/Library/Application Support/Bitcoin`
-Lock file:           `~/Library/Application Support/Bitcoin/.lock`
+Configuration file:  `~/Library/Application Support/Learncoin/bitcoin.conf`
+Data directory:      `~/Library/Application Support/Learncoin`
+Lock file:           `~/Library/Application Support/Learncoin/.lock`
 
 Installing Service Configuration
 -----------------------------------
@@ -124,7 +124,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy bitcoind.init to /etc/init.d/bitcoind. Test by running `service bitcoind start`.
 
 Using this script, you can adjust the path and flags to the bitcoind program by
-setting the BITCOIND and FLAGS environment variables in the file
+setting the LEARNCOIND and FLAGS environment variables in the file
 /etc/sysconfig/bitcoind. You can also use the DAEMONOPTS environment variable here.
 
 ### macOS

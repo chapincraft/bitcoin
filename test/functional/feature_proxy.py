@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2015-2019 The Bitcoin Core developers
+# Copyright (c) 2015-2019 The Learncoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test bitcoind with different proxy configuration.
@@ -34,7 +34,7 @@ import socket
 import os
 
 from test_framework.socks5 import Socks5Configuration, Socks5Command, Socks5Server, AddressType
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import LearncoinTestFramework
 from test_framework.util import (
     PORT_MIN,
     PORT_RANGE,
@@ -54,7 +54,7 @@ NET_ONION = "onion"
 NETWORKS = frozenset({NET_IPV4, NET_IPV6, NET_ONION})
 
 
-class ProxyTest(BitcoinTestFramework):
+class ProxyTest(LearncoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 4
         self.setup_clean_chain = True

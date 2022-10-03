@@ -1,9 +1,9 @@
-// Copyright (c) 2011-2020 The Bitcoin Core developers
+// Copyright (c) 2011-2020 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_BITCOINGUI_H
-#define BITCOIN_QT_BITCOINGUI_H
+#ifndef LEARNCOIN_QT_LEARNCOINGUI_H
+#define LEARNCOIN_QT_LEARNCOINGUI_H
 
 #if defined(HAVE_CONFIG_H)
 #include <config/bitcoin-config.h>
@@ -60,18 +60,18 @@ class ClickableProgressBar;
 }
 
 /**
-  Bitcoin GUI main class. This class represents the main window of the Bitcoin UI. It communicates with both the client and
+  Learncoin GUI main class. This class represents the main window of the Learncoin UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
-class BitcoinGUI : public QMainWindow
+class LearncoinGUI : public QMainWindow
 {
     Q_OBJECT
 
 public:
     static const std::string DEFAULT_UIPLATFORM;
 
-    explicit BitcoinGUI(interfaces::Node& node, const PlatformStyle *platformStyle, const NetworkStyle *networkStyle, QWidget *parent = nullptr);
-    ~BitcoinGUI();
+    explicit LearncoinGUI(interfaces::Node& node, const PlatformStyle *platformStyle, const NetworkStyle *networkStyle, QWidget *parent = nullptr);
+    ~LearncoinGUI();
 
     /** Set the client model.
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
@@ -281,7 +281,7 @@ public Q_SLOTS:
     void gotoSignMessageTab(QString addr = "");
     /** Show Sign/Verify Message dialog and switch to verify message tab */
     void gotoVerifyMessageTab(QString addr = "");
-    /** Load Partially Signed Bitcoin Transaction from file or clipboard */
+    /** Load Partially Signed Learncoin Transaction from file or clipboard */
     void gotoLoadPSBT(bool from_clipboard = false);
 
     /** Show open dialog */
@@ -352,4 +352,4 @@ private Q_SLOTS:
     void onMenuSelection(QAction* action);
 };
 
-#endif // BITCOIN_QT_BITCOINGUI_H
+#endif // LEARNCOIN_QT_LEARNCOINGUI_H

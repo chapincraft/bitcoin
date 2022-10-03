@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2020 The Bitcoin Core developers
+// Copyright (c) 2009-2020 The Learncoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_TXDB_H
-#define BITCOIN_TXDB_H
+#ifndef LEARNCOIN_TXDB_H
+#define LEARNCOIN_TXDB_H
 
 #include <coins.h>
 #include <dbwrapper.h>
@@ -108,4 +108,4 @@ public:
     bool LoadBlockIndexGuts(const Consensus::Params& consensusParams, std::function<CBlockIndex*(const uint256&)> insertBlockIndex);
 };
 
-#endif // BITCOIN_TXDB_H
+#endif // LEARNCOIN_TXDB_H

@@ -66,13 +66,13 @@
         <translation>Mottager adresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dette er dine Bitcoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
+        <source>These are your Learncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dette er dine Learncoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Learncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>Dette er dine Bitcoin adresser for å motta betalinger. Bruk 'Lag ny mottaksadresse' knappen i motta tabben for å lage nye adresser. Signering er bare mulig for adresser av typen 'legacy'.</translation>
+        <translation>Dette er dine Learncoin adresser for å motta betalinger. Bruk 'Lag ny mottaksadresse' knappen i motta tabben for å lage nye adresser. Signering er bare mulig for adresser av typen 'legacy'.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -169,8 +169,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Bekreft kryptering av lommeboken</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Dersom du krypterer lommeboken og mister passordsetningen vil du &lt;b&gt;MISTE ALLE DINE BITCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LEARNCOINS&lt;/b&gt;!</source>
+        <translation>Advarsel: Dersom du krypterer lommeboken og mister passordsetningen vil du &lt;b&gt;MISTE ALLE DINE LEARNCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -253,7 +253,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>LearncoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer &amp;melding</translation>
@@ -363,8 +363,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Proxy er &lt;b&gt;slått på&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Send mynter til en Bitcoin adresse</translation>
+        <source>Send coins to a Learncoin address</source>
+        <translation>Send mynter til en Learncoin adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -399,12 +399,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signer meldingene med Bitcoin adresse for å bevise at diu eier dem</translation>
+        <source>Sign messages with your Learncoin addresses to prove you own them</source>
+        <translation>Signer meldingene med Learncoin adresse for å bevise at diu eier dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Bitcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Learncoin addresses</source>
+        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Learncoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -439,8 +439,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Kommandolinjealternativer</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiv tilkobling til Bitcoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til Bitcoin nettverket</numerusform></translation>
+        <source>%n active connection(s) to Learncoin network</source>
+        <translation><numerusform>%n aktiv tilkobling til Learncoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til Learncoin nettverket</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -487,16 +487,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Last PSBT fra fil...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation>Last delvis signert Bitcoin transaksjon</translation>
+        <source>Load Partially Signed Learncoin Transaction</source>
+        <translation>Last delvis signert Learncoin transaksjon</translation>
     </message>
     <message>
         <source>Load PSBT from clipboard...</source>
         <translation>Last PSBT fra utklippstavlen...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation>Last Delvis Signert Bitcoin Transaksjon fra utklippstavle</translation>
+        <source>Load Partially Signed Learncoin Transaction from clipboard</source>
+        <translation>Last Delvis Signert Learncoin Transaksjon fra utklippstavle</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -543,8 +543,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Lukk alle lommebøker</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Bitcoin-kommandolinjealternativer</translation>
+        <source>Show the %1 help message to get a list with possible Learncoin command-line options</source>
+        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Learncoin-kommandolinjealternativer</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -923,8 +923,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Rediger utsendingsadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Den angitte adressen "%1" er ikke en gyldig Bitcoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Learncoin address.</source>
+        <translation>Den angitte adressen "%1" er ikke en gyldig Learncoin-adresse.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1020,8 +1020,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Bruk en egendefinert datamappe:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Learncoin</source>
+        <translation>Learncoin</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
@@ -1036,8 +1036,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Omtrent %1GB data vil bli lagret i denne mappen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 vil laste ned og lagre en kopi av Bitcoin blokkjeden.</translation>
+        <source>%1 will download and store a copy of the Learncoin block chain.</source>
+        <translation>%1 vil laste ned og lagre en kopi av Learncoin blokkjeden.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1264,8 +1264,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Bruk ubekreftet veksel</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk Bitcoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the Learncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åpne automatisk Learncoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1280,8 +1280,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Tillatt innkommend&amp;e tilkoblinger</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Koble til Bitcoin-nettverket gjennom en SOCKS5 proxy.</translation>
+        <source>Connect to the Learncoin network through a SOCKS5 proxy.</source>
+        <translation>Koble til Learncoin-nettverket gjennom en SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1356,8 +1356,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Skal myntkontroll funksjoner vises eller ikke.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation>Kobl til Bitcoin nettverket gjennom en separat SOCKS5 proxy for Tor onion tjenester. </translation>
+        <source>Connect to the Learncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation>Kobl til Learncoin nettverket gjennom en separat SOCKS5 proxy for Tor onion tjenester. </translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1431,8 +1431,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Skjema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Bitcoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Learncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Learncoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1661,7 +1661,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ugyldig betalingsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Learncoin address or malformed URI parameters.</source>
         <translation>URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig bitcoin-adresse eller feilformede URI-parametre.</translation>
     </message>
     <message>
@@ -1703,8 +1703,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Beløp</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Oppgi en Bitcoin-adresse (f.eks. %1)</translation>
+        <source>Enter a Learncoin address (e.g. %1)</source>
+        <translation>Oppgi en Learncoin-adresse (f.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2152,8 +2152,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>&amp;Melding:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>En valgfri melding å tilknytte betalingsetterspørringen, som vil bli vist når forespørselen er åpnet. Meldingen vil ikke bli sendt med betalingen over Bitcoin-nettverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Learncoin network.</source>
+        <translation>En valgfri melding å tilknytte betalingsetterspørringen, som vil bli vist når forespørselen er åpnet. Meldingen vil ikke bli sendt med betalingen over Learncoin-nettverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2322,7 +2322,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send Bitcoins</translation>
+        <translation>Send Learncoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2545,8 +2545,8 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation>Du kan øke gebyret senere (signaliserer Replace-By-Fee, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Se over ditt transaksjonsforslag. Dette kommer til å produsere en Delvis Signert Bitcoin Transaksjon (PSBT) som du kan lagre eller kopiere og så signere med f.eks. en offline %1 lommebok, eller en PSBT kompatibel hardware lommebok.</translation>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Learncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Se over ditt transaksjonsforslag. Dette kommer til å produsere en Delvis Signert Learncoin Transaksjon (PSBT) som du kan lagre eller kopiere og så signere med f.eks. en offline %1 lommebok, eller en PSBT kompatibel hardware lommebok.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2621,7 +2621,7 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation><numerusform>Antatt bekreftelsesbegynnelse innen %n blokk.</numerusform><numerusform>Antatt bekreftelsesbegynnelse innen %n blokker.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Learncoin address</source>
         <translation>Advarsel Ugyldig bitcoin-adresse</translation>
     </message>
     <message>
@@ -2660,8 +2660,8 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation>Velg tidligere brukt adresse</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoin-adressen betalingen skal sendes til</translation>
+        <source>The Learncoin address to send the payment to</source>
+        <translation>Learncoin-adressen betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2712,8 +2712,8 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>En melding som var tilknyttet bitcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Bitcoin-nettverket.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Learncoin network.</source>
+        <translation>En melding som var tilknyttet bitcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Learncoin-nettverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2750,8 +2750,8 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation>Du kan signere meldinger/avtaler med adresser for å bevise at du kan motta bitcoins sendt til dem. Vær forsiktig med å signere noe vagt eller tilfeldig, siden phishing-angrep kan prøve å lure deg til å signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin-adressen meldingen skal signeres med</translation>
+        <source>The Learncoin address to sign the message with</source>
+        <translation>Learncoin-adressen meldingen skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2782,8 +2782,8 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation>Kopier valgt signatur til utklippstavle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Bitcoin-adressen</translation>
+        <source>Sign the message to prove you own this Learncoin address</source>
+        <translation>Signer meldingen for å bevise at du eier denne Learncoin-adressen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2806,8 +2806,8 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation>Skriv inn mottakerens adresse, melding (forsikre deg om at du kopier linjeskift, mellomrom, faner osv. nøyaktig) og underskrift nedenfor for å bekrefte meldingen. Vær forsiktig så du ikke leser mer ut av signaturen enn hva som er i den signerte meldingen i seg selv, for å unngå å bli lurt av et man-in-the-middle-angrep. Merk at dette bare beviser at den som signerer kan motta med adressen, dette beviser ikke hvem som har sendt transaksjoner!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin-adressen meldingen ble signert med</translation>
+        <source>The Learncoin address the message was signed with</source>
+        <translation>Learncoin-adressen meldingen ble signert med</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2818,8 +2818,8 @@ Merk: Siden avgiften er beregnet per byte-basis, vil et gebyr på "100 satoshis 
         <translation>signaturen som ble gitt da meldingen ble signert</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Bitcoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Learncoin address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Learncoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
