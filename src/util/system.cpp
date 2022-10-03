@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2020 The Learncoin Core developers
+// Copyright (c) 2009-2020 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1286,7 +1286,7 @@ std::string CopyrightHolders(const std::string& strPrefix)
 
     // Make sure Learncoin Core copyright is not removed by accident
     if (copyright_devs.find("Learncoin Core") == std::string::npos) {
-        strCopyrightHolders += "\n" + strPrefix + "The Learncoin Core developers";
+        strCopyrightHolders += "\n" + strPrefix + "The Bitcoin Core developers";
     }
     return strCopyrightHolders;
 }

@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2020 The Learncoin Core developers
+// Copyright (c) 2009-2020 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -211,7 +211,7 @@ public:
         pchMessageStart[1] = 0x11;
         pchMessageStart[2] = 0x09;
         pchMessageStart[3] = 0x07;
-        nDefaultPort = 18333;
+        nDefaultPort = 18433;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 40;
         m_assumed_chain_state_size = 2;

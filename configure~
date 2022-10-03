@@ -34787,7 +34787,7 @@ printf "%s\n" "#define COPYRIGHT_HOLDERS_SUBSTITUTION \"Learncoin Core\"" >>conf
 
 
 
-printf "%s\n" "#define COPYRIGHT_HOLDERS_FINAL \"The Learncoin Core developers\"" >>confdefs.h
+printf "%s\n" "#define COPYRIGHT_HOLDERS_FINAL \"The Bitcoin Core developers\"" >>confdefs.h
 
 CLIENT_VERSION_MAJOR=0
 
@@ -34805,7 +34805,7 @@ COPYRIGHT_HOLDERS="The %s developers"
 
 COPYRIGHT_HOLDERS_SUBSTITUTION="Learncoin Core"
 
-COPYRIGHT_HOLDERS_FINAL="The Learncoin Core developers"
+COPYRIGHT_HOLDERS_FINAL="The Bitcoin Core developers"
 
 
 
