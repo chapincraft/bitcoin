@@ -15,6 +15,7 @@
 #include <ui_interface.h>
 
 #include <memory>
+#include <deque>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -30,7 +31,6 @@
 #include <event2/keyvalq_struct.h>
 
 #include <support/events.h>
-#include <deque>
 
 #ifdef EVENT__HAVE_NETINET_IN_H
 #include <netinet/in.h>
